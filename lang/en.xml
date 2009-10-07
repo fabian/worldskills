@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang>
+	<title>Skills/Compétences Canada</title>
+	<logo>logo.png</logo>
+	<menu_home>Home</menu_home>
+	<menu_about>About</menu_about>
+	<menu_employer>Employer</menu_employer>
+	<menu_candidate>Candidate</menu_candidate>
+	<menu_joblisting>Job Listing</menu_joblisting>
+	<menu_advice>Advice</menu_advice>
+	<menu_contact>Contact Us</menu_contact>
+	<menu_privacy>Privacy Policy</menu_privacy>
+	<menu_copyright>Copyright</menu_copyright>
+	<menu_legal>Legal</menu_legal>
+	<about><![CDATA[
+		<h1>About Skills Canada</h1>
+		<h2>Who we are.</h2>
+		<p>Skills/Compétences Canada is a national, not-for-profit
+			organization that actively promotes careers in skilled trades and
+			technologies to Canadian youth. Along with our private sector
+			partners, we are helping to secure Canada’s future skilled labour
+			needs.
+			Since its inception in 1989, S/CC has evolved into a
+			pan-Canadian
+			organization offering skilled trades and technology
+			competitions at
+			the regional, provincial/territorial, national and
+			international
+			levels as well as other awareness programs for thousands
+			of young
+			Canadians. </p>
+		<img src="/media/images/picture_cook.jpg" alt="Cook" title="Cook at work"
+			class="picture" />
+		<p>The mandate of S/CC is as follows:</p>
+		<ul>
+			<li>Provide a unique, proven, effective and efficient program to
+				raise awareness of current and emerging skilled trades and
+				technology careers, by bringing Canadian youth into a competitive
+				spotlight; and</li>
+			<li>Actively lead in developing dynamic partnerships with agencies
+				and organizations involved in promoting current and emerging
+				skills-based careers in trades and technology by identifying and
+				using best practices.</li>
+		</ul>
+		<div class="animation">
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+				width="575" height="200">
+				<param name="movie" value="/media/flash/animation.swf" />
+				<param name="quality" value="high" />
+				<param name="wmode" value="opaque" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="/media/flash/animation.swf"
+					width="575" height="200">
+					<!--<![endif]-->
+					<param name="quality" value="high" />
+					<param name="wmode" value="opaque" />
+					<div>
+						<h4>Content on this page requires a newer version of Adobe Flash
+							Player.</h4>
+						<p>
+							<a href="http://www.adobe.com/go/getflashplayer">
+								<img
+									src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+									alt="Get Adobe Flash player" />
+							</a>
+						</p>
+					</div>
+					<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+		<h2>What we do.</h2>
+		<p>A misunderstanding of the value of careers in trades and
+			technologies inhibits many young Canadians from considering these
+			types of career options. Through provincial/territorial, national and
+			international skills competitions, S/CC helps make these occupations
+			more visible for teachers, students, parents and the general public.
+			The competitions also provide a competitive atmosphere where these
+			careers are seen as worthy and desirable. </p>
+		<h2>Why we are needed.</h2>
+		<img src="/media/images/picture_woman.jpg" alt="" class="picture" />
+		<p>Over the next two decades, employers in Canada will find it
+			difficult to hire and retain skilled workers. We want to help
+			Canada’s industries find well-trained, well-prepared young people to
+			fill these positions. S/CC wants youth to understand the many
+			opportunities, benefits and rewards of skilled trade and technology
+			careers. Improving the expertise and confidence of individuals
+			pursuing technical careers will benefit us all.</p>]]>
+	</about>
+</lang>

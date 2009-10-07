@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang>
+	<title>Compétences/Skills Canada</title>
+	<logo>logo_fr.png</logo>
+	<menu_home>Accueil</menu_home>
+	<menu_about>À propos</menu_about>
+	<menu_employer>Employeur</menu_employer>
+	<menu_candidate>Candidat</menu_candidate>
+	<menu_joblisting>Liste des emplois</menu_joblisting>
+	<menu_advice>Conseils</menu_advice>
+	<menu_contact>Contactez-nous</menu_contact>
+	<menu_privacy>Confidentialité</menu_privacy>
+	<menu_copyright>Copyright</menu_copyright>
+	<menu_legal>Mentions légales</menu_legal>
+	<about><![CDATA[
+		<h1>À propos de Compétences Canada</h1>
+		<h2>Qui nous sommes</h2>
+		<p>Compétences Canada est un organisme national sans but lucratif qui
+			vise à promouvoir activement auprès des jeunes Canadiens et
+			Canadiennes les perspectives de carrière qu’offrent les métiers
+			spécialisés. Avec nos partenaires du secteur privé, nous contribuons
+			à assurer que les besoins futurs en matière de main-d’œuvre qualifiée
+			au Canada seront comblés.
+			Depuis sa création en 1989, Compétences Canada est devenu un organisme
+			pancanadien qui offre des compétitions dans le domaine des métiers
+			spécialisés et de la technologie à l’échelle régionale et
+			provinciale/territoriale, aussi bien que nationale et internationale,
+			de même que d’autres programmes de sensibilisation destinés à des
+			milliers de jeunes Canadiens.</p>
+		<img src="/media/images/picture_cook.jpg" alt="Organisme"
+			title="Organisme aux travail" class="picture" />
+		<p>Compétences Canada a comme mandat:</p>
+		<ul>
+			<li>De fournir un programme unique, éprouvé, efficace et efficient
+				visant à mieux sensibiliser les jeunes Canadiens et Canadiennes aux
+				carrières actuelles et nouvelles qu’offrent les métiers spécialisés
+				et la technologie, en les incitant à découvrir les mérites de la
+				compétition;</li>
+			<li>D’être des chefs de file actifs en matière d’élaboration de
+				partenariats dynamiques avec des organismes et organisations
+				s’intéressant de près à la promotion des carrières actuelles et
+				nouvelles basées sur la compétence qu’offrent les métiers et la
+				technologie, en déterminant les meilleures pratiques et en
+				favorisant leur utilisation.</li>
+		</ul>
+		<div class="animation">
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+				width="575" height="200">
+				<param name="movie" value="/media/flash/animation.swf" />
+				<param name="quality" value="high" />
+				<param name="wmode" value="opaque" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="/media/flash/animation.swf"
+					width="575" height="200">
+					<!--<![endif]-->
+					<param name="quality" value="high" />
+					<param name="wmode" value="opaque" />
+					<div>
+						<h4>Content on this page requires a newer version of Adobe Flash
+							Player.</h4>
+						<p>
+							<a href="http://www.adobe.com/go/getflashplayer">
+								<img
+									src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+									alt="Get Adobe Flash player" />
+							</a>
+						</p>
+					</div>
+					<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+		<h2>Ce que nous faisons</h2>
+		<p>C’est le manque d’information concernant les possibilités offertes
+			par les métiers et la technologie qui empêche de nombreux jeunes
+			Canadiens d’envisager de faire carrière dans ces domaines. Grâce aux
+			compétitions provinciales/territoriales, nationales et
+			internationales, Compétences Canada contribue à faire connaître ces
+			professions aux enseignants, aux élèves, aux parents et au public en
+			général. Ces événements constituent également un milieu compétitif où
+			l’attrait et la valeur de ces choix de carrière sont mis en évidence.
+		</p>
+		<h2>Notre raison d’être</h2>
+		<img src="/media/images/picture_woman.jpg" alt="" class="picture" />
+		<p>Au cours des deux prochaines décennies, les employeurs canadiens
+			auront de la difficulté à embaucher et à retenir des travailleurs
+			qualifiés. Nous voulons aider les industries du Canada à trouver des
+			jeunes à la fois compétents et bien préparés pour occuper ces postes.
+			Compétences Canada tient à ce que les jeunes comprennent que les
+			métiers spécialisés et techniques offrent de multiples débouchés,
+			avantages et satisfactions. L’amélioration du savoir-faire et de la
+			confiance des personnes qui choisissent un métier technique profitera
+			à chacun d’entre nous.</p>]]>
+	</about>
+</lang>

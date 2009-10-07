@@ -1,0 +1,430 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+a {
+	color: #8b1816;
+}
+
+a img {
+	border: 0;
+}
+
+/* --- Layout settings --- */
+
+body, html {
+	background-image: url("/media/images/background.gif");
+	background-position: top center;
+	background-repeat: repeat-y;
+	background-color: #f4f3ea;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	font-size: 0.9em;
+}
+
+body.large {
+	font-size: 1.2em;
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* --- Header layout --- */
+
+#header {
+	height: 170px;
+	padding-top: 60px;
+	background-image: url("/media/images/header.jpg");
+}
+
+#slogan,
+#options {
+	color: white;
+	font-size: 0.8em;
+	line-height: 2.6em;
+	padding: 0 30px;
+}
+
+body.large #slogan,
+body.large #options {
+	font-size: 0.7em;
+	line-height: 2em;
+}
+
+#slogan a,
+#options a {
+	color: white;
+}
+
+#slogan {
+	position: absolute;
+	top: 0;
+}
+
+#options {
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: 2.4em;
+}
+
+#options .font.small {
+	font-size: 0.9em;
+}
+
+#options .font.large {
+	font-size: 1.3em;
+}
+
+body.small #options .font.small,
+body.large #options .font.large,
+body.en #options .lang.en,
+body.fr #options .lang.fr {
+	text-decoration: none;
+}
+
+/* --- Main Menu settings --- */
+
+#menu {
+	position: absolute;
+	top: 180px;
+	list-style-type: none;
+	left: 10px;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu li a {
+	display: block;
+	color: white;
+	padding: 0 20px;
+	line-height: 40px;
+	text-decoration: none;
+}
+
+body.home #menu li.home a,
+body.about #menu li.about a,
+body.employer #menu li.employer a,
+body.candidate #menu li.candidate a,
+body.joblisting #menu li.joblisting a,
+body.advice #menu li.advice a,
+body.contact #menu li.contact a {
+	background-image: url("/media/images/active.gif");
+}
+
+#menu li a:hover {
+	text-decoration: underline;
+}
+
+#sidebar {
+	position: absolute;
+	top: 230px;
+	right: 20px;
+	width: 190px;
+	padding: 20px 20px 40px 0;
+	background-color: #e6e4dd;
+	font-size: 0.9em;
+}
+
+#sidebar h2 {
+	color: #075b83;
+	font-weight: normal;
+	padding-bottom: 10px;
+	margin-left: 30px;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	margin-bottom: 1em;
+}
+
+#sidebar li a {
+	display: block;
+	padding: 10px 0 10px 30px;
+	color: #222;
+	text-decoration: none;
+}
+
+#sidebar li a:hover {
+	text-decoration: underline;
+}
+
+body.register #sidebar li.register a,
+body.visibility #sidebar li.visibility a,
+body.skills #sidebar li.skills a,
+body.makeiteasy #sidebar li.makeiteasy a,
+body.results #sidebar li.results a,
+body.index #sidebar li.index a,
+body.resumes #sidebar li.resumes a,
+body.newjob #sidebar li.newjob a,
+body.candidates #sidebar li.candidates a {
+	background-image: url("/media/images/menu.gif");
+	background-repeat: no-repeat;
+}
+
+#sidebar p {
+	padding: 5px 0 20px 30px;
+	line-height: 2em;
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+#sidebar img {
+	margin-left: 25px;
+	border: 1px solid #b4b4b4;
+}
+
+/* --- Footer settings --- */
+
+#footer {
+	clear: both;
+	height: 10px;
+	background-image: url("/media/images/footer.png");
+	background-position: center 125px;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #999;
+	padding: 140px 15px 50px;
+	font-size: 0.9em;
+}
+
+#footer a {
+	color: #999;
+}
+
+#content {
+	width: 575px;
+	padding-left: 30px;
+	padding-top: 20px;
+}
+
+/* --- Content settings --- */
+
+#content h1,
+#content h2,
+#content p,
+#content fieldset,
+#content ul {
+	width: 385px;
+	float: right;
+}
+
+#content h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #075b83;
+	margin-bottom: 0.5em;
+}
+
+#content h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	color: #075b83;
+	margin-bottom: 0.3em;
+}
+
+#content p {
+	line-height: 1.4em;
+	margin-bottom: 1em;
+}
+
+#content p.message {
+	background-color: #ffffd8;
+	border: 1px solid #e8e500;
+	padding: 5px 10px;
+	width: 365px;
+}
+
+#content p.right {
+	text-align: right;
+	font-size: 0.9em;
+}
+
+#content ul {
+	line-height: 1.4em;
+	margin-bottom: 1em;
+	width: 370px;
+	padding-left: 1.5em;
+}
+
+#content table {
+	border-collapse: collapse;
+	border-top: 1px solid #dadada;
+	border-left: 1px solid #dadada;
+	width: 575px;
+	margin-bottom: 1.5em;
+}
+
+#content td,
+#content th {
+	padding: 6px 7px;
+	border-bottom: 1px solid #dadada;
+	border-right: 1px solid #dadada;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+#content tr.header th {
+	background-color: #e6e4dd;
+	font-weight: bold;
+}
+
+#content tr.odd {
+	background-color: #f5f5f5;
+}
+
+#content fieldset {
+	border: 0;
+	width: 355px;
+	padding: 20px 15px 10px 15px;
+	margin-bottom: 1em;
+}
+
+#content fieldset.input {
+	background-color: #f5f5f5;
+	border-top: 1px solid #999;
+}
+
+#content fieldset.submit {
+	border: 0;
+	padding-top: 10px;
+}
+
+#content fieldset h2 {
+	height: 30px;
+	width: 355px;
+}
+
+#content fieldset .text {
+	height: 40px;
+	clear: both;
+}
+
+#content fieldset .text.area {
+	height: 90px;
+	clear: both;
+}
+
+#content fieldset .text label {
+	display: block;
+	width: 130px;
+	float: left;
+	line-height: 1.6em;
+}
+
+#content .required {
+	color: #075b83;
+	cursor: help;
+}
+
+#content fieldset .text input {
+	width: 190px;
+	padding: 2px 3px;
+	border: 1px solid;
+	border-color: #777 #EEE #EEE #777;
+}
+
+#content fieldset .text textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	width: 190px;
+	padding: 2px 3px;
+	border: 1px solid;
+	border-color: #777 #EEE #EEE #777;
+}
+
+#content fieldset .text select {
+	width: 190px;
+	padding: 2px 3px;
+}
+
+#content fieldset .submit input {
+	margin-left: 130px;
+	background-color: #0a5f89;
+	color: white;
+	padding: 2px 5px 3px 5px;
+	border: 1px solid #0c4059;
+	background-image: url("/media/images/button.gif");
+	background-position: top left;
+	background-repeat: repeat-x;
+}
+
+#content fieldset .text input:focus {
+	background-color: #fffeec;
+}
+
+#content fieldset .text .message {
+	font-size: 0.7em;
+	color: #999;
+	display: block;
+	padding-left: 130px;
+}
+
+#content fieldset .text.error input,
+#content fieldset .text.error textarea,
+#content fieldset .text.error select {
+	background-color: #fff7f7;
+}
+
+#content fieldset .text.error label,
+#content fieldset .text.error .message {
+	color: #ae1d1d;
+}
+
+#content img {
+	margin-bottom: 2em;
+}
+
+#content img.animation {
+	margin-bottom: 4em;
+}
+
+#content div.animation {
+	margin-top: 1em;
+	margin-bottom: 3.5em;
+	border: 1px solid #b4b4b4;
+	float: left;
+	width: 575px;
+	height: 200px;
+	position: relative;
+}
+
+#content div.animation object {
+	position: absolute;
+	top: 0;
+}
+
+#content img.ad {
+	margin-top: 1em;
+	margin-left: 110px;
+}
+
+#content div.ad {
+	margin-top: 1em;
+	margin-left: 110px;
+	margin-bottom: 3em;
+	border: 1px solid #b4b4b4;
+	float: right;
+	width: 468px;
+	height: 60px;
+	position: relative;
+}
+
+#content div.ad object {
+	position: absolute;
+	top: 0;
+}
+
+#content img.picture {
+	float: left;
+}
