@@ -80,7 +80,8 @@ class Template {
 
 	public function __construct($template) {
 
-		$dom = DOMDocument::load(dirname(__FILE__) . '/../templates/' . $template);
+		$dom = new DOMDocument();
+		$dom->load(dirname(__FILE__) . '/../templates/' . $template);
 
 		$this->xsl = new XSLTProcessor();
 		$this->xsl->importStyleSheet($dom);
